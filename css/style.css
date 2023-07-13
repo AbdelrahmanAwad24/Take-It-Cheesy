@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.content{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.container{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  /* background-color: #1d191999; */
+  overflow: hidden;
+}
+.container::before{
+  content: " ";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: -4px;
+  background-color: #00000087;
+}
+
+.info{
+  position: absolute;
+  left: 50px;
+  top: 140px;
+  color: white;
+  font-size: 22.422px;
+  font-weight: 400;
+  line-height: 13.798px;
+}
+
+.title{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.cover{
+  width: 100%;
+  background-size:cover ;
+  height: 300px;
+}
+
+
+/* Menu */
+
+.product{
+  width: 930px;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  border-bottom: 3px solid grey;
+  margin: auto;
+  
+}
+
+.ingredients{
+  color: grey;
+}
+
+.inner-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.inner-details .name{
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.food-pic{
+  display: flex;
+  width: 50px;
+  height: 89px;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.add-btn{
+  border: 1px beige black;
+  align-items: first baseline;
+  margin: 30px 0px 20px 0px;
+  justify-content: flex-end;
+  justify-self: end;
+  justify-items: right;
+  margin-left: auto;
+  align-self: center;
+}
+
+.food-item-add{
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  border-radius: 50%;
+  font-family: sans-serif;
+  border: 1px solid grey;
+  opacity: 0.5;
+  cursor: pointer;
+} 
+
+.add {
+  align-self: center;
+}
+
+.user-order h2 {
+  text-align: center;
+}
+
+.user-order .check-out {
+  display: flex;
+  justify-content: space-between;
+  width: 930px;
+  border-top: 3px solid grey;
+  margin: 20px auto;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.user-order .checkout-button {
+  width: 930px;
+  background-color: #227a81;
+  margin: auto;
+  text-align: center;
+  color: white;
+  height: 55px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.user-choices{
+  width: 930px;
+  padding: 0px;
+  display: flex;
+  margin: auto;
+  color: black;
+  background-color: white;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.card-details form{   
+  display: flex;
+  display: none;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  border-radius:8px ;
+  box-shadow: 0px 0px 100px 158px #00000029;
+}
+
+.card-details .exit-button{
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 30px;
+  position: absolute;
+  top: -20px;
+  color: black;
+  left: -21px;
+  cursor: pointer;
+}   
+  
+.card-details form div {
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-details form input{
+  margin-top: 10px;
+  height: 35px;
+  padding-left: 20px;
+  outline: none;
+  border-radius: 4px;
+  border-color: #7575754f;
+  transition: width 0.4s ease-in-out;
+}
+
+.card-details form button{
+  margin-top: 10px;
+  height: 35px;
+  color: white;
+  background-color: #227a81;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.final-message {
+  width: 930px;
+  display: none;
+  background-color: #227a81;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 80px;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+}
