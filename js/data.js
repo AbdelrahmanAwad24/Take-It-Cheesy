@@ -1,7 +1,7 @@
 export const menuArray = [
   {
     name: "Pizza",
-    ingredients: ["pepperoni", "mushrom", "mozarella"],
+    ingredients: ["pepperoni", "mushrom"],
     price: 14,
     emoji: "🍕",
     id: 0,
@@ -26,7 +26,7 @@ export const menuArray = [
   {
     name: "Falafel Sandwich",
     ingredients: ["wrap, onion, falafel , tomato"],
-    price: 16,
+    price: 6,
     emoji: "🥙",
     id: 3,
     uuid: "e30279a1-4348-4f73-ab1d-2e408fffa7bf",
@@ -36,15 +36,31 @@ export const menuArray = [
     ingredients: ["chicken, black pepper, paprika , curry powder"],
     price: 16,
     emoji: "🍗",
-    id: 3,
+    id: 4,
     uuid: "e30279a1-4348-4f73-ab1d-2e408fffa7bf",
   },
   {
     name: "Ice Cream",
     ingredients: ["vanilla, chokolate, mango "],
-    price: 16,
+    price: 3,
     emoji: "🍦",
-    id: 3,
+    id: 5,
+    uuid: "e30279a1-4348-4f73-ab1d-2e408fffa7bf",
+  },
+  {
+    name: "Arabian Tea",
+    ingredients: ["Tea, Sugar, Ment "],
+    price: 5,
+    emoji: "🍵",
+    id: 6,
+    uuid: "e30279a1-4348-4f73-ab1d-2e408fffa7bf",
+  },
+  {
+    name: "Coke Cola",
+    ingredients: ["Soda, Sugar, Sparkel Water "],
+    price: 3.5,
+    emoji: "🥤",
+    id: 7,
     uuid: "e30279a1-4348-4f73-ab1d-2e408fffa7bf",
   },
 ];

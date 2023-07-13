@@ -9,6 +9,25 @@ body {
   height: 100%;
   
 }
+/* @media (min-width: 768px) {
+  .content {
+      width:750px ;
+  }
+} */
+/* 
+
+@media (min-width: 992px ) {
+  .content {
+      width: 970px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .content {
+      width:1170px ;
+  }
+} */
 
 .container{
   width: 100%;
@@ -17,12 +36,31 @@ body {
   /* background-color: #1d191999; */
   overflow: hidden;
 }
+@media (min-width: 768px) {
+  .container {
+      width:100% ;
+  }
+} 
+
+
+@media (min-width: 992px ) {
+  .container {
+      width: 100%;
+  }
+} 
+
+
+ @media (min-width: 1200px) {
+  .container {
+      width:100% ;
+  }
+}
 .container::before{
   content: " ";
-  height: 100%;
+  height: 99%;
   width: 100%;
   position: absolute;
-  margin: -4px;
+  /* margin: -4px; */
   background-color: #00000087;
 }
 
@@ -56,7 +94,7 @@ body {
 /* Menu */
 
 .product{
-  width: 930px;
+  width: 95%;
   padding: 0;
   display: flex;
   gap: 20px;
@@ -64,6 +102,25 @@ body {
   margin: auto;
   
 }
+ @media (min-width: 768px) {
+  .product {
+      width:90% ;
+  }
+} 
+
+
+@media (min-width: 992px ) {
+  .product {
+      width: 70%;
+  }
+} 
+
+
+ @media (min-width: 1200px) {
+  .product {
+      width:60% ;
+  }
+} 
 
 .ingredients{
   color: grey;
@@ -122,16 +179,35 @@ body {
 .user-order .check-out {
   display: flex;
   justify-content: space-between;
-  width: 930px;
+  width: 95%;
   border-top: 3px solid grey;
   margin: 20px auto;
   padding-top: 20px;
   font-size: 25px;
   font-weight: bold;
 }
+@media (min-width: 768px) {
+  .user-order .check-out {
+      width:90% ;
+  }
+} 
+
+
+@media (min-width: 992px ) {
+  .user-order .check-out {
+      width: 70%;
+  }
+} 
+
+
+ @media (min-width: 1200px) {
+  .user-order .check-out {
+      width:60% ;
+  }
+} 
 
 .user-order .checkout-button {
-  width: 930px;
+  width: 60%;
   background-color: #227a81;
   margin: auto;
   text-align: center;
@@ -145,7 +221,7 @@ body {
 }
 
 .user-choices{
-  width: 930px;
+  width: 95%;
   padding: 0px;
   display: flex;
   margin: auto;
@@ -154,12 +230,31 @@ body {
   justify-content: space-between;
   font-weight: bold;
 }
+@media (min-width: 768px) {
+  .user-choices {
+      width:90% ;
+  }
+} 
+
+
+@media (min-width: 992px ) {
+  .user-choices {
+      width: 70%;
+  }
+} 
+
+
+ @media (min-width: 1200px) {
+  .user-choices {
+      width:60% ;
+  }
+} 
 
 .card-details form{   
   display: flex;
   display: none;
   flex-direction: column;
-  width: 400px;
+  width: 320px;
   margin: auto;
   background-color: rgb(255, 255, 255);
   padding: 20px;
@@ -171,7 +266,25 @@ body {
   border-radius:8px ;
   box-shadow: 0px 0px 100px 158px #00000029;
 }
+@media (min-width: 768px) {
+  .card-details form  {
+      width:50% ;
+  }
+} 
 
+
+@media (min-width: 992px ) {
+  .card-details form  {
+      width: 30%;
+  }
+} 
+
+
+ @media (min-width: 1200px) {
+  .card-details form  {
+      width:20% ;
+  }
+} 
 .card-details .exit-button{
   height: 30px;
   background-color: transparent;
@@ -212,7 +325,7 @@ body {
 }
 
 .final-message {
-  width: 930px;
+  width: 90%;
   display: none;
   background-color: #227a81;
   color: white;
@@ -223,3 +336,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 768px) {
+  .final-message  {
+      width:90% ;
+  }
+} 
+
+
+@media (min-width: 992px ) {
+  .final-message  {
+      width: 70%;
+  }
+} 
+
+
+ @media (min-width: 1200px) {
+  .final-message  {
+      width:60% ;
+  }
+} 
